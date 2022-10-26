@@ -54,10 +54,10 @@ Replace `<YOUR-USERNAME>` with your GitHub username in this guide.
 
 
 
-## Follow Me
+## :sparkles: Follow Me
 
 ```py
 '''
-To get approval of the pull request much quick :sparkles:
+To get approval of the pull request much quick
 '''
-```
+ ```
