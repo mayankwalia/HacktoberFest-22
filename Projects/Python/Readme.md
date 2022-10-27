@@ -10,7 +10,7 @@
 - Add your files (`git add -A`), commit (`git commit -m "added myself"`) and push (`git push origin new-user`)
 - Create a pull request
 
-
+🌟 Follow Me
 ```py
 '''
 To get approval of the pull request much quick
