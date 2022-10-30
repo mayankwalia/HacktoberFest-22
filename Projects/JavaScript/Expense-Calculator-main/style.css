@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap");
+:root {
+    --text: #fff0f0;
+    --line: #ebd4d4;
+    --last: #835858;
+    --color-orange: #DF8453;
+    --color-blue: #3D8DAE;
+    --color-pink: #E4A9A8;
+    --color-yellow: #DBAD4A;
+    --color-lightblue: #ACCFCB;
+    --color-green: #99c140;
+    --color-darkblue: #004444;
+    --color-lightyellow: #f0e06b;
+    --color-lightgreen: #b6ceb2;
+    --color-sandpink: #ddb4aa;
+    --color-lavender: #CAB2CE;
+    --color-steelblue: #3a7ca5;
+    --color-spanishgrey: #9B9D95;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Viaoda Libre", cursive;
+    background-color: var(--color-lightblue);
+    color: var(--color-darkblue);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    min-height: 100vh;
+}
+
+.container {
+    margin: 30px auto;
+    width: 650px;
+}
+
+h1 {
+    letter-spacing: 3px;
+    margin: 0;
+}
+
+h3 {
+    padding: 10px;
+    margin: 40px 0 10px;
+}
+
+h4 {
+    margin: 0;
+    text-transform: uppercase;
+    color: var(--last);
+}
+
+p {
+    color: var(--bg);
+    font-weight: bold;
+}
+
+.inc-exp-container {
+    background-color: var(--line);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.inc-exp-container>div {
+    flex: 1;
+    text-align: center;
+}
+
+.money {
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin: 5px 0;
+}
+
+label {
+    display: inline-block;
+    margin: 10px 0;
+    font-size: large;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+input[type="text"] {
+    border: 1px solid var(--last);
+    border-radius: 1rem;
+    display: block;
+    font-size: 16px;
+    padding: 10px;
+    width: 100%;
+}
+
+.btn {
+    cursor: pointer;
+    background-color: var(--line);
+    color: var(--color-darkblue);
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 10px 0 30px;
+    padding: 10px;
+    width: 100%;
+}
+
+.btn:focus,
+.delete-btn:focus {
+    outline: none;
+}
+
+.list {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 40px;
+}
+
+.list li {
+    background-color: var(--text);
+    color: var(--bg);
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.delete-btn {
+    cursor: pointer;
+    background-color: var(--line);
+    border: 0;
+    font-size: 20px;
+    line-height: 20px;
+    padding: 2px 5px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(-100%, -50%);
+    transition: opacity 0.3s ease-in;
+}
